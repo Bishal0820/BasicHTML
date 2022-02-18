@@ -5,11 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .form1{
+        color: red;
+    }
+     #id2{
+         color: blue;
+     }
+    </style>
+
 </head>
 <body>
-    <form action="/action_page.php">
+    <form action="/action_page.php" id="id2">
         <label>First Name:&nbsp;&nbsp;<input type="text" placeholder="First Name" required> </label>&nbsp;&nbsp;
-        <label>Last Name: &nbsp;&nbsp;<input type="text" placeholder="Last Name"></label><br>
+        <label>Last Name: &nbsp;&nbsp;<input type="text" placeholder="Last Name"></label><br><br>
+        <label>Apple</label> <input type="radio" name="test"/>
+        <label>Banana</label> <input type="radio" name="test"/>
+        <br>
+        <label>Choose your best movie</label> <br>
+        <input type="checkbox"/><label>Avatar</label>
+        <input type="checkbox"/><label>Thor</label>
+        <input type="checkbox"/><label>Avengers</label>
+        <br><br>
+        <label>Pick your city</label>
+        <select name = "City" >
+            <option value=1>Arlington</option>
+            <option value=2 selected="true">Dallas</option>
+            <option value=3>Houston</option>
+            <option value=4>Fortworth</option>
+        </select>
+        <input type="submit" value="Submit"/>
+    </form>
+ <hr>
+    <form action="/action_page.php" class="form1">
+        <label>First Name:&nbsp;&nbsp;<input type="text" placeholder="First Name" required> </label>&nbsp;&nbsp;
+        <label>Last Name: &nbsp;&nbsp;<input type="text" placeholder="Last Name"></label><br><br>
         <label>Apple</label> <input type="radio" name="test"/>
         <label>Banana</label> <input type="radio" name="test"/>
         <br>
