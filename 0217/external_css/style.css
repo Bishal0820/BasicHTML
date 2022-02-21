@@ -1,0 +1,22 @@
+#external{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+    margin: 50px 300px;
+}
+
+.extclass{
+    border: 2px solid green;
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+
+#lorem_ipsum{
+    border: 2px double grey;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 300px;
+}
