@@ -1,0 +1,56 @@
+#one {
+  position: static;
+}
+
+#two {
+  position: static;
+}
+
+body {
+  border: 20px solid red;
+}
+
+/* .box {
+  border: 2px solid red;
+  height: 700px;
+  width: 600px;
+  position: relative;
+} */
+
+/* .result1,
+.result2 {
+  border: 2px solid red;
+  width: 80%;
+} */
+
+/* .result1 {
+  background-color: lightblue;
+  position: absolute;
+  height: 300px;
+  width: 200px;
+  top: 100px;
+  left: 202px;
+} */
+/* margin-top: 100px;  
+    margin-left: 100px; */
+/* margin-top: 100px; */
+/* top: 100px; */
+/* top: 500px; */
+
+/* .result2 {
+  background-color: lightgreen;
+  height: 300px;
+  width: 200px;
+  margin-top: 30px;
+  top: 100px;
+  position: absolute;
+} */
+
+/*  top, right, bottom, left */
+
+.fixed1 {
+  border: 2px solid red;
+  background-color: gold;
+  position: fixed;
+  color: black;
+}
